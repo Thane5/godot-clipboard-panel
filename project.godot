@@ -12,7 +12,6 @@ config_version=4
 
 config/name="godot-clipboard-panel"
 run/main_scene="res://addons/Clipboard_Panel/Clipboard_Panel.tscn"
-config/icon="res://icon.png"
 
 [editor_plugins]
 
@@ -21,7 +20,3 @@ enabled=PoolStringArray( "res://addons/Clipboard_Panel/plugin.cfg" )
 [physics]
 
 common/enable_pause_aware_picking=true
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"

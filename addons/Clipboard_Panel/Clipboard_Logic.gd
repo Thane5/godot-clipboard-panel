@@ -5,7 +5,7 @@ export(NodePath) var parentPath
 const ICON_ADD = "Add"
 
 func _enter_tree():
-	var vLine = load("res://addons/Clipboard_Panel/Vertical_Line.tscn").instance()
+	var vLine = load("res://addons/Clipboard_Panel/Text_Line.tscn").instance()
 	get_node(parentPath).add_child(vLine)
 	
 	var addIcon = get_icon(ICON_ADD, 'EditorIcons')
@@ -20,5 +20,5 @@ func _exit_tree():
 
 
 func _on_Add_pressed():
-	var vLine = load("res://addons/Clipboard_Panel/Vertical_Line.tscn").instance()
+	var vLine = load("res://addons/Clipboard_Panel/Text_Line.tscn").instance()
 	get_node(parentPath).add_child(vLine)
