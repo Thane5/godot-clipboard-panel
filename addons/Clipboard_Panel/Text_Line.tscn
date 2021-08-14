@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://addons/Clipboard_Panel/Vertical_Line.gd" type="Script" id=1]
+[ext_resource path="res://addons/Clipboard_Panel/Text_Line.gd" type="Script" id=1]
 
 [sub_resource type="Image" id=3]
 data = {
@@ -17,11 +17,12 @@ flags = 4
 image = SubResource( 3 )
 size = Vector2( 16, 16 )
 
-[node name="vLine" type="HBoxContainer"]
+[node name="textLine" type="HBoxContainer"]
 anchor_right = 0.999719
 anchor_bottom = 0.08
 margin_right = 0.287964
 margin_bottom = 2.0
+rect_min_size = Vector2( 0, 30 )
 size_flags_vertical = 3
 script = ExtResource( 1 )
 __meta__ = {
