@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="godot-clipboard-panel"
+config/name="Clipboard Panel"
 run/main_scene="res://addons/Clipboard_Panel/Clipboard_Panel.tscn"
 
 [editor_plugins]
